@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="./img/sedona-logo-mobile.png" width="185" height="96"
+        alt="Логотип города Седона.">
+    </a>
+    <nav class="navigation">
+      <button class="navigation__toggle" type="button">
+        <span class="visually-hidden">Открыть меню.</span>
+      </button>
+      <div class="navigation__wrapper">
+        <ul class="navigation__list site-list">
+          <li class="site-list__item"></li>
+          <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item--current">
+            <a href="catalog.html">Фото и видео</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Форма Отзыва</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru">HTML ACADEMY</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="catalog-container">
+    <div class="catalog-container__wrapper">
+      <div class="hero">
+        <h1 class="visually-hidden">Фото и видео Седоны.</h1>
+        <img class="hero__text" src="./img/hero-text-catalog-mobile.svg" width="229" height="39" alt="Sedona.">
+      </div>
+      <section class="sedona-catalog">
+        <h2 class="sedona-catalog__title">Фото и видео</h2>
+        <p class="sedona-catalog__description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам
+          забыть о политике и экономике.</p>
+        <ul class="sedona-catalog__photoblog photoblog">
+          <li class="photoblog__item photoblog-item">
+            <h3 class="photoblog-item__title">Неродные просторы</h3>
+            <p class="photoblog-item__author">Автор фото: Борис</p>
+            <img class="photoblog-item__image" src="./img/photoblog-terrain-mobile.jpg" width="280" height="280"
+              alt="Двухполостная дорога и горы вдали на закате.">
+            <button class="photoblog-item__like" type="button">
+              <span class="visually-hidden">Понравилось.</span>
+            </button>
+            <span class="photoblog-item__like-number">1350</span>
+          </li>
+          <li class="photoblog__item photoblog-item">
+            <h3 class="photoblog-item__title">Местная растительность</h3>
+            <p class="photoblog-item__author">Автор фото: Сергей</p>
+            <img class="photoblog-item__image" src="./img/photoblog-plant-mobile.jpg" width="280" height="280"
+              alt="Кактус с мелкими желтыми цветами на фоне гор.">
+            <button class="photoblog-item__like" type="button">
+              <span class="visually-hidden">Понравилось.</span>
+            </button>
+            <span class="photoblog-item__like-number">143</span>
+          </li>
+          <li class="photoblog__item photoblog-item">
+            <h3 class="photoblog-item__title">Дорога на север</h3>
+            <p class="photoblog-item__author">Автор фото: Петр</p>
+            <img class="photoblog-item__image" src="./img/photoblog-mountain-road-mobile.jpg" width="280" height="280"
+              alt="Извилистая горная трасса среди елей.">
+            <button class="photoblog-item__like" type="button">
+              <span class="visually-hidden">Понравилось.</span>
+            </button>
+            <span class="photoblog-item__like-number">96</span>
+          </li>
+          <li class="photoblog__item photoblog-item">
+            <h3 class="photoblog-item__title">Мост дьявола</h3>
+            <p class="photoblog-item__author">Автор фото: Антон</p>
+            <img class="photoblog-item__image" src="./img/photoblog-devil-bridge-mobile.jpg" width="280" height="280"
+              alt="Мост дьявола на фоне гор со скудной растительностью">
+            <button class="photoblog-item__like" type="button">
+              <span class="visually-hidden">Понравилось.</span>
+            </button>
+            <span class="photoblog-item__like-number">254</span>
+          </li>
+        </ul>
+      </section>
+      <aside class="video-presentation">
+        <h2 class="video-presentation__title">Все еще сомневаетесь?</h2>
+        <p class="video-presentation__description">Смотрите видеопрезентацию и скорее за билетами, пока они не
+          подорожали в очередной раз!</p>
+        <a class="video-presentation__link" href="#">
+          <img class="video-presentation__preview" src="./img/video-presentation-preview.jpg" width="280" height="177"
+            alt="Превью видеопризентации.">
+        </a>
+      </aside>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <span>#VISITSEDONA</span>
+      <ul class="page-footer__social social-list">
+        <li class="social-list__item--vkontante social-item">
+          <a class="social-button" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">Vkontakte.</span>
+          </a>
+        </li>
+        <li class="social-list__item--telegram social-item">
+          <a class="social-button" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">Telegram.</span>
+          </a>
+        </li>
+        <li class="social-list__item--youtube social-item">
+          <a class="social-button" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">Youtube.</span>
+          </a>
+        </li>
+      </ul>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
