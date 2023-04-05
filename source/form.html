@@ -12,7 +12,7 @@
       <img class="page-header__logo-image" src="./img/sedona-logo-mobile.png" width="185" height="96"
         alt="Логотип города Седона.">
     </a>
-    <nav class="navigation">
+    <nav class="page-header__navigation navigation">
       <button class="navigation__toggle" type="button">
         <span class="visually-hidden">Открыть меню.</span>
       </button>
@@ -24,7 +24,7 @@
           <li class="site-list__item">
             <a href="catalog.html">Фото и видео</a>
           </li>
-          <li class="site-list__item--current">
+          <li class="site-list__item  site-list__item--current">
             <a href="form.html">Форма Отзыва</a>
           </li>
           <li class="site-list__item">
@@ -67,24 +67,23 @@
             <ul class="experience-form__list experience-list">
               <li class="experience-list__item experience-item">
                 <label class="experience-item__field">
-                  <input class="experience-item__control control" type="radio" name="experience" value="positive"
-                    checked>
-                  <span class="control__mark"></span>
-                  <span class="control__label">Скорее положительное</span>
+                  <input class="experience-item__control" type="radio" name="experience" value="positive" checked>
+                  <span class="experience-item__control-mark"></span>
+                  <span class="experience-item__control-label">Скорее положительное</span>
                 </label>
               </li>
               <li class="experience-list__item experience-item">
                 <label class="experience-item__field">
-                  <input class="experience-item__control control" type="radio" name="experience" value="negative">
-                  <span class="control__mark"></span>
-                  <span class="control__label">Скорее отрицательное</span>
+                  <input class="experience-item__control" type="radio" name="experience" value="negative">
+                  <span class="experience-item__control-mark"></span>
+                  <span class="experience-item__control-label">Скорее отрицательное</span>
                 </label>
               </li>
               <li class="experience-list__item experience-item">
                 <label class="experience-item__field">
-                  <input class="experience-item__control control" type="radio" name="experience" value="uncertain">
-                  <span class="control__mark"></span>
-                  <span class="control__label">Затрудняюсь ответить</span>
+                  <input class="experience-item__control" type="radio" name="experience" value="uncertain">
+                  <span class="experience-item__control-mark"></span>
+                  <span class="experience-item__control-label">Затрудняюсь ответить</span>
                 </label>
               </li>
             </ul>
@@ -94,30 +93,30 @@
             <ul class="landmarks-form__list landmarks-list">
               <li class="landmarks-list__item landmarks-item">
                 <label class="landmarks-item__field">
-                  <input class="landmarks-item__control control" type="checkbox" name="devil-bridge" value="1" checked>
-                  <span class="control__mark"></span>
-                  <span class="control__label">Мост Дьявола</span>
+                  <input class="landmarks-item__control" type="checkbox" name="devil-bridge" value="1" checked>
+                  <span class="landmarks-item__control-mark"></span>
+                  <span class="landmarks-item__control-label">Мост Дьявола</span>
                 </label>
               </li>
               <li class="landmarks-list__item landmarks-item">
                 <label class="landmarks-item__field">
-                  <input class="landmarks-item__control control" type="checkbox" name="mount-bell" value="2" checked>
-                  <span class="control__mark"></span>
-                  <span class="control__label">Гора-Колокол</span>
+                  <input class="landmarks-item__control" type="checkbox" name="mount-bell" value="2" checked>
+                  <span class="landmarks-item__control-mark"></span>
+                  <span class="landmarks-item__control-label">Гора-Колокол</span>
                 </label>
               </li>
               <li class="landmarks-list__item landmarks-item">
                 <label class="landmarks-item__field">
-                  <input class="landmarks-item__control control" type="checkbox" name="slide-park" value="3" checked>
-                  <span class="control__mark"></span>
-                  <span class="control__label">Слайд-парк</span>
+                  <input class="landmarks-item__control" type="checkbox" name="slide-park" value="3" checked>
+                  <span class="landmarks-item__control-mark"></span>
+                  <span class="landmarks-item__control-label">Слайд-парк</span>
                 </label>
               </li>
               <li class="landmarks-list__item landmarks-item">
                 <label class="landmarks-item__field">
-                  <input class="landmarks-item__control control" type="checkbox" name="red-rocks" value="4">
-                  <span class="control__mark"></span>
-                  <span class="control__label">Красные горы</span>
+                  <input class="landmarks-item__control" type="checkbox" name="red-rocks" value="4">
+                  <span class="landmarks-item__control-mark"></span>
+                  <span class="landmarks-item__control-label">Красные горы</span>
                 </label>
               </li>
             </ul>
@@ -137,17 +136,17 @@
     <div class="page-footer__wrapper">
       <span>#VISITSEDONA</span>
       <ul class="page-footer__social social-list">
-        <li class="social-list__item--vkontante social-item">
+        <li class="social-list__item social-list__item--vkontante">
           <a class="social-button" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">Vkontakte.</span>
           </a>
         </li>
-        <li class="social-list__item--telegram social-item">
+        <li class="social-list__item social-list__item--telegram ">
           <a class="social-button" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">Telegram.</span>
           </a>
         </li>
-        <li class="social-list__item--youtube social-item">
+        <li class="social-list__item social-list__item--youtube">
           <a class="social-button" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">Youtube.</span>
           </a>
@@ -161,21 +160,21 @@
   </footer>
   <div class="modal-container modal-container--open">
     <div class="modal">
-      <section class="modal__content modal-content--correct">
+      <section class="modal__content modal__content--correct modal-content">
         <h2 class="modal-content__title">Ваш отзыв отправлен!</h2>
         <p class="modal-content__description">Спасибо за ваше участие, ваш отзыв уже поступил к нам.В ближайшее время мы
           опубликуем его на сайте.</p>
-        <button class="modal_button button" type="button">Закрыть окно</button>
+        <button class="modal__button button" type="button">Закрыть окно</button>
       </section>
     </div>
   </div>
   <div class="modal-container modal-container--open">
     <div class="modal">
-      <section class="modal__content modal-content--error">
+      <section class="modal__content modal-content--error modal-content">
         <h2 class="modal-content__title">Что-то пошло не так!</h2>
         <p class="modal-content__description">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
         </p>
-        <button class="modal_button button" type="button">Ок</button>
+        <button class="modal__button button" type="button">Ок</button>
       </section>
     </div>
   </div>
