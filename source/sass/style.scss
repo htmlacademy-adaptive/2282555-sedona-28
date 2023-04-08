@@ -1,1 +1,15 @@
-// Начните писать стили здесь
+// Базовые настройки стилей//
+@import "./base/mixins.scss";
+@import "./base/fonts.scss";
+@import "./base/base.scss";
+@import "./base/button.scss";
+//
+@import "./blocks/page-header.scss";
+// index
+@import "./blocks/navigation.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/hotels-search.scss";
+@import "./blocks/page-footer.scss";
+@import "./blocks/social-list.scss";
+@import "./blocks/copyright.scss";

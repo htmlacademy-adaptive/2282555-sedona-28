@@ -1,0 +1,7 @@
+.page-footer__wrapper {
+  display: flex;
+}
+
+.page-footer__hashtag {
+  @include title(21px, 26px);
+}

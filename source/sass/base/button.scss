@@ -1,0 +1,10 @@
+.button {
+  @include title(21px, 26px);
+  background-color: #81b3d2;
+  color: #ffffff;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}

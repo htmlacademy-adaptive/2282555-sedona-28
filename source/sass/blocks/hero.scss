@@ -1,0 +1,8 @@
+.hero {
+  background-image: url("../../img/hero-decoration.svg"), url("../../img/hero-backgroud-desktop.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, cover;
+  background-position: left 0 bottom 0;
+  background-color: #5282ab;
+  text-align: center;
+}
