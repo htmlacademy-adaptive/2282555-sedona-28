@@ -1,0 +1,12 @@
+.feedback-form__title {
+  @include title;
+}
+
+.feedback-form__text {
+  color: #333333;
+}
+
+.feedback-form__field {
+  background-color: #f2f2f2;
+  border: none;
+}

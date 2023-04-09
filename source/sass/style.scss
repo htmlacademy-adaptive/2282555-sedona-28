@@ -3,13 +3,30 @@
 @import "./base/fonts.scss";
 @import "./base/base.scss";
 @import "./base/button.scss";
-//
+//header//
 @import "./blocks/page-header.scss";
-// index
 @import "./blocks/navigation.scss";
+// index//
 @import "./blocks/hero.scss";
-@import "./blocks/advantages.scss";
-@import "./blocks/hotels-search.scss";
+@import "./blocks/index/advantages.scss";
+@import "./blocks/index/hotels-search.scss";
+//catalog//
+@import "./blocks/catalog/sedona-catalog.scss";
+@import "./blocks/catalog/photo-blog.scss";
+@import "./blocks/catalog/photo-blog-item.scss";
+@import "./blocks/catalog/video-presentation.scss";
+//form//
+@import "./blocks/form/feedback.scss";
+@import "./blocks/form/feedback-form.scss";
+@import "./blocks/form/experience-form.scss";
+@import "./blocks/form/experience-item.scss";
+@import "./blocks/form/landmarks-form.scss";
+@import "./blocks/form/landmarks-item.scss";
+//модальное окно//
+@import "./blocks/form/modal-container.scss";
+@import "./blocks/form/modal.scss";
+@import "./blocks/form/modal-content.scss";
+//footer//
 @import "./blocks/page-footer.scss";
 @import "./blocks/social-list.scss";
 @import "./blocks/copyright.scss";

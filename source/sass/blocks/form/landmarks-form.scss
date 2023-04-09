@@ -1,0 +1,7 @@
+.landmarks-form__title {
+  @include title;
+}
+
+.landmarks-form__list {
+  @include list-reset;
+}
