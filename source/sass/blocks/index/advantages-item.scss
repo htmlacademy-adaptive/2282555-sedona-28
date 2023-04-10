@@ -1,0 +1,22 @@
+.advantages-item__title {
+  @include title;
+}
+
+.advantages-item__text-wrapper {
+  background-color: $basic-blue;
+  color: #ffffff;
+
+  .advantages-item__description {
+    color: #ffffff;
+  }
+}
+
+.advantages-item__description {
+  color: $text-description;
+}
+
+.advantages-item--square,
+.advantages-item--road,
+.advantages-item--tourists {
+  background-color: $grey-background;
+}

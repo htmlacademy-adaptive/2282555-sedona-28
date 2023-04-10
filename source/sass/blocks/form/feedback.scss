@@ -1,0 +1,14 @@
+.feedback__title {
+  @include title;
+}
+
+.feedback__description {
+  color: $text-description;
+}
+
+.feedback__footnote {
+  color: $text-description;
+  opacity: 0.6;
+  font-size: 12px;
+  line-height: 21px;
+}

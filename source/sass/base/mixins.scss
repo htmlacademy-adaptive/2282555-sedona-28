@@ -1,0 +1,24 @@
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@mixin link-style {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px 25px;
+}
+
+@mixin title($size: 18px,
+  $line:26px) {
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: $size;
+  line-height: $line;
+}

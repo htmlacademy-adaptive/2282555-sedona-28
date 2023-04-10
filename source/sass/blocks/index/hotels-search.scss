@@ -1,0 +1,7 @@
+.hotels-search__title {
+  @include title(21px, 26px);
+}
+
+.hotels-search__description {
+  color: $text-description;
+}

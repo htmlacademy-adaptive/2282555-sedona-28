@@ -1,1 +1,36 @@
-// Начните писать стили здесь
+// Базовые настройки стилей//
+@import "./base/mixins.scss";
+@import "./base/colors-variables.scss";
+@import "./base/fonts.scss";
+@import "./base/base.scss";
+@import "./base/button.scss";
+//header//
+@import "./blocks/page-header.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/site-list.scss";
+// index//
+@import "./blocks/hero.scss";
+@import "./blocks/index/advantages.scss";
+@import "./blocks/index/advantages-list.scss";
+@import "./blocks/index/advantages-item.scss";
+@import "./blocks/index/hotels-search.scss";
+//catalog//
+@import "./blocks/catalog/sedona-catalog.scss";
+@import "./blocks/catalog/photo-blog.scss";
+@import "./blocks/catalog/photo-blog-item.scss";
+@import "./blocks/catalog/video-presentation.scss";
+//form//
+@import "./blocks/form/feedback.scss";
+@import "./blocks/form/feedback-form.scss";
+@import "./blocks/form/experience-form.scss";
+@import "./blocks/form/experience-item.scss";
+@import "./blocks/form/landmarks-form.scss";
+@import "./blocks/form/landmarks-item.scss";
+//модальное окно//
+@import "./blocks/form/modal-container.scss";
+@import "./blocks/form/modal.scss";
+@import "./blocks/form/modal-content.scss";
+//footer//
+@import "./blocks/page-footer.scss";
+@import "./blocks/social-list.scss";
+@import "./blocks/copyright.scss";

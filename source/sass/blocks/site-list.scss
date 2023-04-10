@@ -1,0 +1,7 @@
+.site-list__link {
+  @include link-style;
+
+  &--current {
+    color: $current;
+  }
+}

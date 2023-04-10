@@ -1,0 +1,7 @@
+.sedona-catalog__title {
+  @include title;
+}
+
+.sedona-catalog__description {
+  color: $text-description;
+}

@@ -1,0 +1,20 @@
+.feedback-form__title {
+  @include title;
+}
+
+.feedback-form__text {
+  color: $text-description;
+}
+
+.feedback-form__field {
+  background-color: $field-background;
+  border: none;
+}
+
+.feedback-form__name,
+.feedback-form__contacts,
+.feedback-form__experience,
+.feedback-form__landmarks,
+.feedback-form__emotions {
+  border: none;
+}

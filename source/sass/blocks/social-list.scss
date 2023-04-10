@@ -1,0 +1,11 @@
+.social-list {
+  @include list-reset;
+  display: flex;
+  gap: 6px;
+}
+
+.social-list__item {
+  background-color: $basic-blue;
+  width: 48px;
+  height: 48px;
+}
