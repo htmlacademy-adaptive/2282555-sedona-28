@@ -1,31 +1,7 @@
-.advantages__slogan,
-.advantages__title {
+.advantages__slogan {
   @include title;
 }
 
-.advantages__list {
-  @include list-reset;
-}
-
-.advantages-item {
-  text-align: center;
-}
-
-.advantages__text-wrapper {
-  background-color: #81b3d2;
-  color: #ffffff;
-
-  .advantages__description {
-    color: #ffffff;
-  }
-}
-
-.advantages__description {
-  color: #333333;
-}
-
-.advantages__item--square,
-.advantages__item--road,
-.advantages__item--tourists {
-  background-color: #eeeeee;
+.advantages__intro {
+  color: $text-description;
 }

@@ -3,19 +3,12 @@
 }
 
 .feedback__description {
-  color: #333333;
-}
-
-.feedback-form__name,
-.feedback-form__contacts,
-.feedback-form__experience,
-.feedback-form__landmarks,
-.feedback-form__emotions {
-  border: none;
+  color: $text-description;
 }
 
 .feedback__footnote {
-  color: rgba(51, 51, 51, 0.6);
+  color: $text-description;
+  opacity: 0.6;
   font-size: 12px;
   line-height: 21px;
 }

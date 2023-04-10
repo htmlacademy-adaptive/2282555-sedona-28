@@ -3,10 +3,18 @@
 }
 
 .feedback-form__text {
-  color: #333333;
+  color: $text-description;
 }
 
 .feedback-form__field {
-  background-color: #f2f2f2;
+  background-color: $field-background;
+  border: none;
+}
+
+.feedback-form__name,
+.feedback-form__contacts,
+.feedback-form__experience,
+.feedback-form__landmarks,
+.feedback-form__emotions {
   border: none;
 }

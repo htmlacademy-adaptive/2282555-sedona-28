@@ -2,11 +2,3 @@
   @include list-reset;
   display: flex;
 }
-
-.site-list__link {
-  @include link-style;
-
-  &--current {
-    color: #766357;
-  }
-}

@@ -1,14 +1,18 @@
 // Базовые настройки стилей//
 @import "./base/mixins.scss";
+@import "./base/colors-variables.scss";
 @import "./base/fonts.scss";
 @import "./base/base.scss";
 @import "./base/button.scss";
 //header//
 @import "./blocks/page-header.scss";
 @import "./blocks/navigation.scss";
+@import "./blocks/site-list.scss";
 // index//
 @import "./blocks/hero.scss";
 @import "./blocks/index/advantages.scss";
+@import "./blocks/index/advantages-list.scss";
+@import "./blocks/index/advantages-item.scss";
 @import "./blocks/index/hotels-search.scss";
 //catalog//
 @import "./blocks/catalog/sedona-catalog.scss";
