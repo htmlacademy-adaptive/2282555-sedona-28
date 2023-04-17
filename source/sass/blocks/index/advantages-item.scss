@@ -1,3 +1,7 @@
+.advantages-item {
+  text-align: center;
+}
+
 .advantages-item__title {
   @include title;
 }
@@ -19,4 +23,15 @@
 .advantages-item--road,
 .advantages-item--tourists {
   background-color: $grey-background;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages-item--town,
+  .advantages-item--devil-bridge {
+    display: flex;
+  }
+
+  .advantages-item--devil-bridge {
+    flex-direction: row-reverse;
+  }
 }

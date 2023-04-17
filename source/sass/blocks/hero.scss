@@ -6,4 +6,11 @@
   background-color: #5282ab;
   text-align: center;
   min-height: 158px;
+  padding: 90px 20px 85px;
+}
+
+@media (min-width: $tablet-width) {
+  .hero {
+    padding: 77px 20px 91px;
+  }
 }

@@ -1,3 +1,18 @@
 .advantages-list {
   @include list-reset;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .advantages-list__item--town,
+  .advandages-list__item--devil-bridge {
+    grid-column: span 3;
+  }
 }

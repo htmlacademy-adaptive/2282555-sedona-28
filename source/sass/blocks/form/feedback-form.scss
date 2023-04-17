@@ -18,3 +18,27 @@
 .feedback-form__emotions {
   border: none;
 }
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .feedback-form__name,
+  .feedback-form__contacts {
+    min-width: 36vw;
+  }
+
+  .feedback-form__experience,
+  .feedback-form__landmarks,
+  .feedback-form__emotions {
+    min-width: 84vw;
+  }
+}

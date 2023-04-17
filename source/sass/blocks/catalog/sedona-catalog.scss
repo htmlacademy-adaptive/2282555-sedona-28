@@ -1,7 +1,9 @@
 .sedona-catalog__title {
   @include title;
+  text-align: center;
 }
 
 .sedona-catalog__description {
   color: $text-description;
+  text-align: center;
 }

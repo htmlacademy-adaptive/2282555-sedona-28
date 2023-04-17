@@ -1,7 +1,30 @@
+.site-list {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 185px 1fr 1fr;
+
+    &::after {
+      content: "";
+      grid-column: 3 / 4;
+      grid-row: 1 / 3;
+    }
+  }
+}
+
+
 .site-list__link {
   @include link-style;
+  padding: 20px;
 
   &--current {
     color: $current;
   }
+}
+
+.site-list__item {
+  text-align: center;
 }

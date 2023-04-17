@@ -1,9 +1,11 @@
 .feedback__title {
   @include title;
+  text-align: center;
 }
 
 .feedback__description {
   color: $text-description;
+  text-align: center;
 }
 
 .feedback__footnote {
