@@ -1,0 +1,15 @@
+.navigation-toggle {
+  display: block;
+}
+
+@media (min-width: $tablet-width) {
+  .navigation-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .navigation-toggle {
+    display: none;
+  }
+}

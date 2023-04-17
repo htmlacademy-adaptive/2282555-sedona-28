@@ -1,3 +1,27 @@
 .photo-blog {
   @include list-reset;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .photo-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .photo-blog__item:first-child {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .photo-blog__item:first-child {
+    grid-column: span 3;
+  }
 }

@@ -1,4 +1,19 @@
-.navigation__list {
-  @include list-reset;
+.navigation {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .navigation {
+    flex-direction: row;
+  }
+
+  .navigation__list {
+    @include list-reset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,3 +1,17 @@
 .page-header {
   display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 56px;
+}
+
+.page-header__logo {
+  position: absolute;
+  top: 0;
+  left: calc(50% - $logo-width / 2);
+  z-index: 5;
+}
+
+.page-header__navigation {
+  margin: 0 auto;
 }

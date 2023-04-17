@@ -1,6 +1,6 @@
 // Базовые настройки стилей//
 @import "./base/mixins.scss";
-@import "./base/colors-variables.scss";
+@import "./base/variables.scss";
 @import "./base/fonts.scss";
 @import "./base/base.scss";
 @import "./base/button.scss";
@@ -8,6 +8,7 @@
 @import "./blocks/page-header.scss";
 @import "./blocks/navigation.scss";
 @import "./blocks/site-list.scss";
+@import "./blocks/navigation-toggle.scss";
 // index//
 @import "./blocks/hero.scss";
 @import "./blocks/index/advantages.scss";
@@ -26,6 +27,8 @@
 @import "./blocks/form/experience-item.scss";
 @import "./blocks/form/landmarks-form.scss";
 @import "./blocks/form/landmarks-item.scss";
+@import "./blocks/form/name-form.scss";
+@import "./blocks/form/contacts-form.scss";
 //модальное окно//
 @import "./blocks/form/modal-container.scss";
 @import "./blocks/form/modal.scss";
